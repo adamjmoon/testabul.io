@@ -4,7 +4,7 @@ html, body {
   width: 100%;
   height: 100%;
   display: table;
-  background-image: url(/bg.jpg);
+  background-image: url(//raw.githubusercontent.com/adamjmoon/testabul.io/gh-pages/bg.jpg);
   background-size: cover;
   background-position: center top;
 }
