@@ -1,5 +1,7 @@
 
 .demo-layout-transparent {
+  position: absolute;
+  
   background: url('../bg.jpg') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
