@@ -1,15 +1,13 @@
 
-body:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.83;
-  /*background: linear-gradient(#f1c40f 0%, #27ae60 100%);*/
+.demo-layout-transparent {
+  background: url('bg.jpg') center / cover;
 }
-
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
 div.container > * {
   font-family: 'uni_sansheavy_caps', sans-serif;
   color: #FFFFFF;
