@@ -11,7 +11,7 @@ html, body {
 
 .demo-layout-transparent {
   position: absolute;
-  
+  margin-top: 50px;
   background: url('../bg.jpg') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
@@ -49,10 +49,7 @@ html, body {
 }
 
 .flex-item {
-  background: tomato;
   padding: 5px;
-  width: 200px;
-  height: 150px;
   margin-top: 10px;
   
   line-height: 150px;
