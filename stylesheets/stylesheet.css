@@ -20,7 +20,9 @@ html, body {
   color: white;
 }
 
-
+.demo-card-wide {
+    background-color: powderblue;
+}
 
 .demo-card-wide > .mdl-card__title {
   color: #000;
@@ -45,9 +47,7 @@ html, body {
 }
 
 .flex-item {
-  padding: 5px;
   margin-top: 10px;
-  background-color: powderblue;
   color: white;
   font-weight: bold;
   font-size: 3em;
