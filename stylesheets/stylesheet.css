@@ -11,7 +11,7 @@ html, body {
 
 .demo-layout-transparent {
   position: absolute;
-  background: url('../bg.jpg') center / cover;
+  background: url('../bg.jpg') top / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
@@ -52,6 +52,10 @@ html, body {
   font-weight: bold;
   font-size: 3em;
   text-align: center;
+}
+
+.mdl-layout__content{
+    margin-top: 100px;
 }
 
 
